@@ -53,7 +53,7 @@ gazelle(
 )
 
 go_library(
-      name = "godemo_lib",
+    name = "godemo_lib",
     srcs = ["main.go"],
     importpath = "github.com/luluz66/godemo",
     visibility = ["//visibility:private"],
