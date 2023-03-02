@@ -60,7 +60,7 @@ go_library(
 )
 
 go_binary(
-      name = "godemo",
+    name = "godemo",
     embed = [":godemo_lib"],
     visibility = ["//visibility:public"],
 )
